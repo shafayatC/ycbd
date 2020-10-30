@@ -2,7 +2,7 @@
 ## About 
 Comunity site made by react and firebase.
 
-[Live Site](localhost:3000/)
+[Live Site](https://ycbd.vaatia.com/)
 
 ## Feature 
 * New member registration form

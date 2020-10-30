@@ -1,0 +1,52 @@
+
+@media only screen and (max-width: 1169px) {
+}
+
+/*		tab: 480px.   */
+@media only screen and (max-width: 979px) {
+	.middle {width: 712px;}
+	.hpostgr {margin-right: auto !important; width: auto !important; }
+	.single-blog:nth-child(2n+1) { margin-right: 26px !important;}
+	.single-blog {  width: 48% !important;}
+	}
+
+
+/*		Mobile Layout: 480px.   */
+@media only screen and (max-width: 767px) {
+	.middle { width: 436px;}
+	.hmsearch{width: 436px;}
+	.hdTitle { width: 100%;}
+.hdTitle > a { margin: auto;}
+.mobile-menu {  display: block;}
+.nav > li:first-child { border-top: 1px solid #e9eaee;}
+.navigationWrapper {  margin-top: -1px;}
+.hdTitle { padding-bottom: 15px;  width: 100%;}
+.single-blog { width: 100%  !important;}
+.single-blog:nth-child(2n+1) {  margin-right: 0  !important; }
+.ftr-left { width: 100%;}
+.ftr-left .menu-mainmenu-container { display: table;  float: none;  margin: auto;}
+.ftr-right { width: 100%; float: left;  padding-top: 10px;}
+.social-btn {  display: table;  margin: auto;}
+.social-btn > a { margin: 0 7px;}
+/* blog page */
+.blog-wrapper {  width: 100%;}
+.sidebar-wrapper { width: 100%;}
+/*====== product page=====*/
+.wc_sng_product { display: none;}
+/*==== react responsive ===*/
+.menu-mainmenu-container {width: 100%}
+.top_ul {	text-align: center;}
+.gnd {width: 47%;}
+.popForm {	margin: 13% 0 0 27%;}
+.ftr-left p {text-align: center;}
+
+/*		Mobile Layout: 320px.   */
+@media only screen and (max-width: 439px) {
+	.middle { width: 252px;}
+	.hmsearch{width: 252px;}
+	.hsearform > input[type="submit"] { width: 100%;  margin: auto;  margin-top: 5px;}
+/*==== react responsive ===*/
+	.popForm {	margin: 13% 0 0 2%;}
+
+}
+

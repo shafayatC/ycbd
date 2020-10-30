@@ -1,0 +1,90 @@
+html {scroll-behavior: smooth;}
+.h1_1{
+    font-size: 25px;
+    float: left;
+    width: 100%;
+    padding: 0 0 25px 0;}
+
+.aboutus{float : left; width: 100%; padding-top: 20px; padding-bottom: 20px; }
+.title-3{font-size: 24px;padding: 20px 0 26px 0;}
+.hsearform > input[type="text"]{min-width:100% !important; margin-bottom: 20px  !important; }
+.hsearform > input[type="submit"]{min-width:100% !important;}
+.hsearform > textarea {  border: medium none;
+  border-radius: 4px;
+      font: 400 13.3333px Arial;
+  float: left;
+  min-width: 261px;
+  padding: 10px !important;min-width:100% !important;margin-bottom: 20px  !important; } }
+.hsearform > input[type="submit"] {min-width:100% !important; }
+.gndWrap {
+	float: left;
+	width: 100%;
+	margin-bottom: 20px !important;
+}
+.gnd {
+	background: #fff;
+	border-radius: 4px;
+	width: 49%;
+	float: left;
+}
+.gnd label {
+	padding: 10px;
+	float: left;
+	width: 86%;
+}
+.gnd input {
+	float: right;
+	margin-top: 13px;
+}
+.gnd:last-child {
+	float: right;
+}
+.notification_pop {
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	background: url("../images/opacitybg.png");
+	top: 0;
+	z-index: 99;
+}
+.registrationPopUp {
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	top: 0;
+}
+#memberSuccess, #wrongSubmit{
+	display: none;
+	z-index: 99;
+}
+#formSubmitPop {
+	display: none;
+}
+#wrongSubmit .msg p {
+	color: red;
+}
+.msg {
+	width: 28%;
+	background: white;
+	margin: 22% auto;
+	opacity: 1;
+	border-radius: 5px;
+}
+.msg p {
+	padding: 13px;
+	text-align: center;
+	font-size: 16px;
+	font-weight: bold;
+	color: green;
+}
+.popForm {
+	margin: 13% 0 0 36%;
+	z-index: 9999;
+	position: fixed;
+}
+#contactPageForm{
+	width: 450px; 
+}
+#loginPage {
+	background: rgba(0, 0, 0, 0) url("../images/banner2.jpg") repeat fixed center top / cover;
+}

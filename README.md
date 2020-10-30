@@ -12,7 +12,6 @@ Comunity site made by react and firebase.
 * Check all register user 
 * Check user message. 
 * Update page content ( Home & About ) 
-* Make admin
 
 ## Technology
 * ReactJs (Class, JSX, Route)
